@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+
+[build.environment]
+  # The application is static; skip the Next.js runtime enabled in site settings.
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
